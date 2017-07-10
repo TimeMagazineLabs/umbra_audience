@@ -81,6 +81,7 @@ The [National Highway Planning Network](https://www.fhwa.dot.gov/planning/proces
 + **SIGNQ1,SIGNQ2,SIGNQ3**: Sign route description. 'F' is "Proposed (future)" and should be filtered out
 + **STATUS**: Describes availability of the arc to through traffic. Only '1' should be used, which is "Open to traffic."
 
+
 	# This will take about a minute
 	wget https://www.fhwa.dot.gov/planning/processes/tools/nhpn/2015/nhpnv14-05shp.zip && unzip nhpnv14-05shp.zip -d shp
 
