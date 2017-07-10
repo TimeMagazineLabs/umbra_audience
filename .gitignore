@@ -2,6 +2,10 @@
 shp/*
 maps/*
 data/*
+!shp/.gitkeep
+!maps/.gitkeep
+!data/.gitkeep
+
 
 # Logs
 logs
