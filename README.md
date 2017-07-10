@@ -77,8 +77,11 @@ These commands, which are bundled in `maps.sh`, will download all the SHP files 
 The [National Highway Planning Network](https://www.fhwa.dot.gov/planning/processes/tools/nhpn/) "is a geospatial network database that contains line features representing just over 450,000 miles of highways in the United States." The SHP file has the following attributes we might be interested in:
 
 **F_SYSTEM**: The functional system upon which the section is located. Values range from "Rural Minor Arterial" to "Urban Principal Arterial - Interstate", etc.
+
 **FACILITY_T**: This item is used to determine whether a roadway or structure is a one- or two-way operation.
+
 **SIGNQ1,SIGNQ2,SIGNQ3**: Sign route description. 'F' is "Proposed (future)" and should be filtered out
+
 **STATUS**: Describes availability of the arc to through traffic. Only '1' should be used, which is "Open to traffic."
 
              # This will take about a minute
