@@ -6,6 +6,7 @@ data/*
 !maps/.gitkeep
 !data/.gitkeep
 
+umbra_audience.json
 
 # Logs
 logs
