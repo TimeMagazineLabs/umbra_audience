@@ -1,0 +1,27 @@
+{
+  "name": "umbra_audience",
+  "version": "0.0.0",
+  "description": "Calculating how many people could fit in the umbra zone for the Aug. 21, 2017 eclipse",
+  "main": "analyze_umbra.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TimeMagazine/umbra_audience.git"
+  },
+  "keywords": [
+    "astronomy",
+    "maps"
+  ],
+  "author": "Chris Wilson, Pratheek Rebala",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "bugs": {
+    "url": "https://github.com/TimeMagazine/umbra_audience/issues"
+  },
+  "homepage": "https://github.com/TimeMagazine/umbra_audience#readme",
+  "dependencies": {
+    "commafy": "0.0.5",
+    "turf": "^3.0.14"
+  }
+}
