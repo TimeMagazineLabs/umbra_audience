@@ -95,10 +95,10 @@ The [National Highway Planning Network](https://www.fhwa.dot.gov/planning/proces
 	
 	# clip to umbra. 
 	# Thanks the Matthew Block for fixing a (bug)[https://github.com/mbloch/mapshaper/issues/192#issuecomment-313146371] here
-	node --max_old_space_size=4096 $(which mapshaper) shp/umbra_state_roads.shp encoding=utf8 name=umbra_roads -clip maps/umbra_land.shp -o shp/umbra_roads.shp
+	node --max_old_space_size=4096 $(which mapshaper) shp/umbra_state_roads.shp encoding=utf8 name=umbra_roads -clip maps/umbra_land.shp -o maps/umbra_roads.shp
 
 	# remove roads that run over public land so that we don't double-count
-	mapshaper shp/umbra_roads.shp -erase maps/umbra_public_land.shp -o maps/umbra_roads.shp
+	#mapshaper maps/umbra_roads.shp -erase maps/umbra_public_land.shp -o maps/umbra_roads_without_land.shp
 	mapshaper maps/umbra_roads.shp -o format=geojson data/umbra_roads.geo.json
 	rm shp/* && rm *.zip
 
