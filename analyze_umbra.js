@@ -35,7 +35,7 @@ var sq_miles = sq_meters / SQ_METERS_PER_SQUARE_MILE;
 
 // TOTAL POPULATION AS OF JULY 10, 2017
 // https://www.census.gov/popclock/
-var POPULATION = 325407336;
+var POPULATION = 325517460;
 
 console.log("Total area of umbra over landmass", commafy(Math.round(sq_miles)), "square miles.");
 
